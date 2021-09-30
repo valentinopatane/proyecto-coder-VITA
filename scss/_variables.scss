@@ -1,0 +1,21 @@
+
+@for $i from  1 through 5 {
+    h#{$i}{
+        font-family: 'Open Sans Condensed', sans-serif;
+        letter-spacing: 1px;
+        color: #000;
+    }
+}
+
+$titulos: (
+    h1: 40px,
+    h3: 25px,
+    h5: 20px,
+);
+
+
+@each $titulo, $size in $titulos{
+    .size-#{$titulo}{
+        font-size: $size;
+    }
+}

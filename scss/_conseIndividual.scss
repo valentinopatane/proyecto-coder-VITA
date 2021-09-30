@@ -1,0 +1,117 @@
+/*==========================================================PAGINA CONSEJOS INDIVIDUALES==========================================================*/
+
+
+@import "_variables.scss";
+
+.cueroCabelludoTit{
+    color: rgb(83, 65, 65);
+    letter-spacing: 2px;
+}
+
+.cueroCabelludoMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cueroCabelludoSecc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000;
+    font-size: 18px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 30px;
+    ul{
+        margin-left: 30px;
+
+        li{
+            list-style: square;
+        }
+    }
+    b{
+        color: rgb(83, 65, 65);
+    }
+    p {
+        padding: 10px;
+    }
+    img{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+.linksConsejo {
+    div{
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        a{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: rgb(101,96,94);
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 18px;
+        
+        }
+        img{
+            width: 60%;
+            height: auto;
+            border-radius: 15px;
+        }
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    .cueroCabelludoTit{
+        text-align: left;
+        font-size: 25px;
+        padding: 100px 150px; 
+    }
+
+    .cueroCabelludoSecc {
+        width: 60%;
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+    .linksConsejo div a:hover{
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .linksConsejo {
+        div{
+            flex-direction: row;
+        }
+    }
+
+    .cueroCabelludoTit{
+        padding: 100px 150px; 
+    }
+
+
+    
+}
+
+
+
+

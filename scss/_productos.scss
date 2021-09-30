@@ -1,0 +1,402 @@
+
+
+/*==========================================================PRODUCTOS==========================================================*/
+
+
+/*---------------------------PORTADA INICIO DE PRODUCTOS---------------------------*/
+
+#mainProductos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#portadaProduct {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../multimedia/images/fondoProd.jpg);
+
+    h1{
+        font-size: 40px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 50px;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        color: #000;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*--------------------------- FIN PORTADA INICIO DE PRODUCTOS---------------------------*/
+
+
+
+/*---------------------------SECCION PERSONAL CARE---------------------------*/
+
+#personalCare {
+    margin-top: 15px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    h2{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 35px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+}
+.personalCareGrid{
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    justify-items: center;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+.personalCareGridItem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        background-color: rgba(230, 224, 222, 0.5);
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    h3{
+        padding: 10px;
+    }
+    img{
+        width: 100px;
+        height: 200px;
+    }
+}
+
+/* ---------------------------FIN SECCION PERSONAL CARE---------------------------*/
+
+
+/*--------------------------- COMIENZO SECCION AMENITIES---------------------------*/
+
+#amenities {
+    width: 70%;
+    margin-bottom: 15px;
+
+    h2{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 35px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+}
+.amenitiesGrid{
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    justify-items: center;
+    grid-template-rows: repeat(5, 1fr);
+
+}
+.amenitiesGridItem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        background-color: rgba(230, 224, 222, 0.5);
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    h3{
+        padding: 10px;
+    }
+    img{
+        width: 100px;
+        height: 200px;
+    }
+}
+
+
+/*--------------------------- FIN SECCION AMENITIES---------------------------*/
+
+/*--------------------------- COMIENZO SECCION CREMAS---------------------------*/
+
+#cremas {
+    width: 70%;
+    margin-bottom: 15px;
+    h2{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 35px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+}
+
+.cremasGrid{
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    justify-items: center;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+.cremasGridItem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        background-color: rgba(230, 224, 222, 0.5);
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    h3{
+        padding: 10px;
+    }
+    img{
+        width: 100px;
+        height: 200px;
+    }
+}
+
+/*--------------------------- FIN SECCION CREMAS---------------------------*/
+
+
+/*--------------------------- COMIENZO SECCION SOLIDOS---------------------------*/
+#solidos {
+    width: 70%;
+    margin-bottom: 15px;
+    h2{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 35px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 20px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+}
+.solidosGrid{
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    justify-items: center;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+.solidosGridItem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        background-color: rgba(230, 224, 222, 0.5);
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    h3{
+        padding: 10px;
+    }
+    img{
+        width: 100px;
+        height: 200px;
+    }
+    
+}
+
+/* ---------------------------FIN SECCION SOLIDOS---------------------------*/
+
+
+@media screen and (min-width: 768px){
+    .personalCareGrid{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .amenitiesGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+    .cremasGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+    .solidosGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1025px){
+    #personalCare{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
+
+        p {
+            width: 800px;
+        }
+    }
+    .personalCareGrid{
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+    .personalCareGridItem:hover{
+        box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+    }
+    #amenities{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+
+        p {
+            width: 800px;
+        }
+    }
+    .amenitiesGrid{
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+    .amenitiesGridItem:hover{
+        box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+    }
+    #cremas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+
+        p{
+            width: 800px;
+        }
+    }
+    .cremasGrid{
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+    .cremasGridItem:hover{
+        box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+    }
+    #solidos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+
+        p {
+            width: 800px;
+        }
+    
+    }
+    .solidosGrid{
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
+    .solidosGridItem:hover{
+        box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+    }
+}
