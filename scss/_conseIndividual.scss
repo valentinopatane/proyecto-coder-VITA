@@ -4,8 +4,15 @@
 @import "_variables.scss";
 
 .cueroCabelludoTit{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1{
     color: rgb(83, 65, 65);
     letter-spacing: 2px;
+    font-size: 30px;
 }
 
 .cueroCabelludoMain{
