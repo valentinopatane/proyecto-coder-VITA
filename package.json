@@ -1,14 +1,14 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "VITA Origen Natural es una empresa cosmética ubicada en el corazón de Mendoza, que se enfoca en brindarte lo mejor para el cuidado de tu cuerpo y cabello. Esta página fué realizada a modo de proyecto para la academia CODERHOUSE.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/sassystyles.scss css/sassycss.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Valentino Patané",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
