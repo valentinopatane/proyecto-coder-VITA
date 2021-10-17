@@ -96,8 +96,7 @@
         padding: 10px;
     }
     img{
-        width: 100px;
-        height: 200px;
+        width: 50%;
     }
 }
 
@@ -157,8 +156,7 @@
         padding: 10px;
     }
     img{
-        width: 100px;
-        height: 200px;
+        width: 50%;
     }
 }
 
@@ -217,8 +215,7 @@
         padding: 10px;
     }
     img{
-        width: 100px;
-        height: 200px;
+        width: 50%;
     }
 }
 
@@ -275,8 +272,7 @@
         padding: 10px;
     }
     img{
-        width: 100px;
-        height: 200px;
+        width: 50%;
     }
     
 }
@@ -312,7 +308,7 @@
 
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1024px){
     #personalCare{
         display: flex;
         flex-direction: column;
@@ -322,6 +318,7 @@
         margin-bottom: 70px;
 
         p {
+            text-align: center;
             width: 800px;
         }
     }
@@ -331,6 +328,11 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         grid-gap: 30px;
+    }
+    .personalCareGridItem{
+        img{
+            width: 80%;
+        }
     }
     .personalCareGridItem:hover{
         box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
@@ -343,6 +345,7 @@
         margin-bottom: 70px;
 
         p {
+            text-align: center;
             width: 800px;
         }
     }
@@ -352,6 +355,11 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 30px;
+    }
+    .amenitiesGridItem{
+        img{
+            width: 80%;
+        }
     }
     .amenitiesGridItem:hover{
         box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
@@ -364,6 +372,7 @@
         margin-bottom: 70px;
 
         p{
+            text-align: center;
             width: 800px;
         }
     }
@@ -373,6 +382,11 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         grid-gap: 30px;
+    }
+    .cremasGridItem{
+        img{
+            width: 80%;
+        }
     }
     .cremasGridItem:hover{
         box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
@@ -385,6 +399,7 @@
         margin-bottom: 70px;
 
         p {
+            text-align: center;
             width: 800px;
         }
     
@@ -395,6 +410,11 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         grid-gap: 30px;
+    }
+    .solidosGridItem{
+        img{
+            width: 80%;
+        }
     }
     .solidosGridItem:hover{
         box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);

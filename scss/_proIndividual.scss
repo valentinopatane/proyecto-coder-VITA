@@ -115,6 +115,9 @@
             text-align: center;
         }
     }
+    img{
+        width: 50%;
+    }
 }
 
 @media  screen and (min-width:768px) {
@@ -157,11 +160,15 @@
             width: 60%;
     
         }
+
+        img{
+            width: 100%;
+        }
     }
     .linksProductoGrid div:hover{
-        box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
-        transform: scale(1.2);
-        transition: all .8s;
+        box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.3);
+        transform: scale(1.1);
+        transition: all .4s;
     }
 
 }

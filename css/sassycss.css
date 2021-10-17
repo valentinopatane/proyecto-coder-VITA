@@ -495,8 +495,7 @@ nav {
   .personalCareGridItem h3 {
     padding: 10px; }
   .personalCareGridItem img {
-    width: 100px;
-    height: 200px; }
+    width: 50%; }
 
 /* ---------------------------FIN SECCION PERSONAL CARE---------------------------*/
 /*--------------------------- COMIENZO SECCION AMENITIES---------------------------*/
@@ -544,8 +543,7 @@ nav {
   .amenitiesGridItem h3 {
     padding: 10px; }
   .amenitiesGridItem img {
-    width: 100px;
-    height: 200px; }
+    width: 50%; }
 
 /*--------------------------- FIN SECCION AMENITIES---------------------------*/
 /*--------------------------- COMIENZO SECCION CREMAS---------------------------*/
@@ -593,8 +591,7 @@ nav {
   .cremasGridItem h3 {
     padding: 10px; }
   .cremasGridItem img {
-    width: 100px;
-    height: 200px; }
+    width: 50%; }
 
 /*--------------------------- FIN SECCION CREMAS---------------------------*/
 /*--------------------------- COMIENZO SECCION SOLIDOS---------------------------*/
@@ -642,8 +639,7 @@ nav {
   .solidosGridItem h3 {
     padding: 10px; }
   .solidosGridItem img {
-    width: 100px;
-    height: 200px; }
+    width: 50%; }
 
 /* ---------------------------FIN SECCION SOLIDOS---------------------------*/
 @media screen and (min-width: 768px) {
@@ -668,7 +664,7 @@ nav {
     grid-template-rows: 1fr;
     grid-gap: 30px; } }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   #personalCare {
     display: flex;
     flex-direction: column;
@@ -677,6 +673,7 @@ nav {
     margin-top: 50px;
     margin-bottom: 70px; }
     #personalCare p {
+      text-align: center;
       width: 800px; }
   .personalCareGrid {
     display: grid;
@@ -684,6 +681,8 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 30px; }
+  .personalCareGridItem img {
+    width: 80%; }
   .personalCareGridItem:hover {
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3); }
   #amenities {
@@ -693,6 +692,7 @@ nav {
     align-items: center;
     margin-bottom: 70px; }
     #amenities p {
+      text-align: center;
       width: 800px; }
   .amenitiesGrid {
     display: grid;
@@ -700,6 +700,8 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 30px; }
+  .amenitiesGridItem img {
+    width: 80%; }
   .amenitiesGridItem:hover {
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3); }
   #cremas {
@@ -709,6 +711,7 @@ nav {
     align-items: center;
     margin-bottom: 70px; }
     #cremas p {
+      text-align: center;
       width: 800px; }
   .cremasGrid {
     display: grid;
@@ -716,6 +719,8 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 30px; }
+  .cremasGridItem img {
+    width: 80%; }
   .cremasGridItem:hover {
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3); }
   #solidos {
@@ -725,6 +730,7 @@ nav {
     align-items: center;
     margin-bottom: 70px; }
     #solidos p {
+      text-align: center;
       width: 800px; }
   .solidosGrid {
     display: grid;
@@ -732,6 +738,8 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 30px; }
+  .solidosGridItem img {
+    width: 80%; }
   .solidosGridItem:hover {
     box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3); } }
 
@@ -876,17 +884,23 @@ h5 {
   justify-content: center;
   align-items: center;
   margin-top: 20px; }
-  #intro div img {
-    margin-top: 20px;
-    width: auto;
-    height: 500px; }
-  #intro div p {
-    font-size: 20px;
-    text-align: justify;
-    font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px; }
+  #intro div {
+    text-align: justify; }
+    #intro div img {
+      margin-top: 20px;
+      width: auto;
+      height: 500px; }
+    #intro div p {
+      font-size: 20px;
+      text-align: justify;
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing: 2px; }
+    #intro div h3 {
+      font-size: 20px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      letter-spacing: 2px;
+      color: #3b2f2f;
+      font-weight: 800; }
 
 #mision {
   width: 80%;
@@ -936,6 +950,8 @@ h5 {
       padding: 25px; }
     #intro div img {
       height: 700px; }
+    #intro div h3 {
+      padding-left: 25px; }
   #mision {
     flex-direction: row; } }
 
@@ -1101,6 +1117,8 @@ h5 {
     font-size: 17px;
     letter-spacing: 2px;
     text-align: center; }
+  .linksProductoGrid img {
+    width: 50%; }
 
 @media screen and (min-width: 768px) {
   .introProducto p {
@@ -1128,10 +1146,12 @@ h5 {
     justify-items: center; }
     .linksProductoGrid div {
       width: 60%; }
+    .linksProductoGrid img {
+      width: 100%; }
   .linksProductoGrid div:hover {
-    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
-    transform: scale(1.2);
-    transition: all .8s; } }
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: all .4s; } }
 
 /*==========================================================PAGINA CONSEJOS INDIVIDUALES==========================================================*/
 h1 {
